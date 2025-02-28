@@ -89,3 +89,11 @@ My Ubuntu configuration files.
      sudo apt update &&
      sudo apt install mullvad-vpn
    ```
+
+11. Install Ghostty.
+
+    ```bash
+    curl --output ghostty.deb https://github.com/mkasberg/ghostty-ubuntu/releases/download/1.1.2-0-ppa1/ghostty_1.1.2-0.ppa1_amd64_24.10.deb &&
+      sudo apt install ./ghostty.deb &&
+      rm ghostty.deb
+    ```
