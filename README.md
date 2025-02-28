@@ -4,16 +4,7 @@ My Ubuntu configuration files.
 
 ## Setup
 
-1. Add PPA repository for latest git stable version, refresh PPA repositories, upgrade packages, and install development tools.
-
-   ```bash
-   sudo add-apt-repository ppa:git-core/ppa &&
-     sudo apt update &&
-     sudo apt upgrade &&
-     sudo apt install build-essential curl zsh git xsel
-   ```
-
-2. Set zsh as the default shell, then log out and back in.
+1. Set zsh as the default shell, then log out and back in.
 
    ```bash
    chsh --shell /usr/bin/zsh &&
@@ -72,28 +63,3 @@ My Ubuntu configuration files.
    ```bash
    snap remove --purge thunderbird firefox
    ```
-
-9. Install Anytype.
-
-   ```bash
-   curl --output anytype.deb https://anytype-release.fra1.cdn.digitaloceanspaces.com/anytype_0.45.3_amd64.deb &&
-     sudo apt install ./anytype.deb &&
-     rm anytype.deb
-   ```
-
-10. Install Mullvad VPN.
-
-   ```bash
-   sudo curl -fsSLo /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc &&
-     echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --print-architecture )] https://repository.mullvad.net/deb/stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/mullvad.list &&
-     sudo apt update &&
-     sudo apt install mullvad-vpn
-   ```
-
-11. Install Ghostty.
-
-    ```bash
-    curl --output ghostty.deb https://github.com/mkasberg/ghostty-ubuntu/releases/download/1.1.2-0-ppa1/ghostty_1.1.2-0.ppa1_amd64_24.10.deb &&
-      sudo apt install ./ghostty.deb &&
-      rm ghostty.deb
-    ```
