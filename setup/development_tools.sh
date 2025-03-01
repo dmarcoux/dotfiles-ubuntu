@@ -11,4 +11,4 @@ sudo apt update --assume-yes
 sudo apt upgrade --assume-yes
 
 # Install development tools
-sudo apt install --assume-yes build-essential curl zsh git xsel
+sudo apt install --assume-yes build-essential curl zsh git xsel pipx
