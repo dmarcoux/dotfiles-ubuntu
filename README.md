@@ -53,13 +53,3 @@ My Ubuntu configuration files.
      brew bundle &&
      chezmoi apply
    ```
-
-7. Install Firefox (non-snap package).
-
-   _See [this](https://support.mozilla.org/en-US/kb/install-firefox-linux#w_install-firefox-deb-package-for-debian-based-distributions-recommended)._
-
-8. Uninstall Thunderbird and Firefox snaps, and purge their data.
-
-   ```bash
-   snap remove --purge thunderbird firefox
-   ```
