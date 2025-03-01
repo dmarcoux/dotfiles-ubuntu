@@ -470,13 +470,6 @@ fi
 # Use the 1Password SSH agent for all hosts
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 
-##### Alacritty #####
-
-case "$TERM" in
-  alacritty*|xterm*)
-    precmd() { print -Pn '\e]2;zsh: %n@%~\a' } ;;
-esac
-
 ##### mise #####
 
 # TODO: Remove this if I don't use mise
