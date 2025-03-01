@@ -7,3 +7,6 @@ curl --output ghostty.deb https://github.com/mkasberg/ghostty-ubuntu/releases/do
 # Install .deb file, before removing it
 sudo apt install ./ghostty.deb
 rm ghostty.deb
+
+# Uninstall GNOME terminal (it comes by default with GNOME and I don't need it)
+sudo apt remove --assume-yes gnome-terminal
