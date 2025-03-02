@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/usr/bin/ghostty
+Exec=/usr/bin/alacritty
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
