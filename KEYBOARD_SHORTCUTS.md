@@ -10,7 +10,8 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 | Move window to workspace 1/2/... | Super + Shift + 1/2/... |
 | Switch to pinned dock app 1/2/... | Alt + 1/2/... |
 | Switch to another window of the current app | Super + / |
-| Switch to another app | Alt + Tab |
+| Switch to another window across all workspaces | Super + Tab |
+| Switch to another window on the current workspace | Alt + Tab |
 | Close app | Super + W |
 | Lock screen | Super + L |
 | Show the notification list | Super + V |
