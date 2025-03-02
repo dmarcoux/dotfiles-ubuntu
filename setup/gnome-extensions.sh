@@ -22,11 +22,14 @@ gext install just-perfection-desktop@just-perfection
 gext install space-bar@luchrioh
 # Undecorate windows or in other words, remove title bar of a window. This can be toggled back if needed - https://extensions.gnome.org/extension/1208/undecorate/
 gext install undecorate@sun.wxg@gmail.com
+# Open windows on a specific workspace - https://extensions.gnome.org/extension/16/auto-move-windows/
+gext install auto-move-windows@gnome-shell-extensions.gcampax.github.com
 
 # Compile gsettings schemas in order to be able to set them
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/
 sudo cp ~/.local/share/gnome-shell/extensions/just-perfection-desktop\@just-perfection/schemas/org.gnome.shell.extensions.just-perfection.gschema.xml /usr/share/glib-2.0/schemas/
 sudo cp ~/.local/share/gnome-shell/extensions/space-bar\@luchrioh/schemas/org.gnome.shell.extensions.space-bar.gschema.xml /usr/share/glib-2.0/schemas/
+sudo cp ~/.local/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com/schemas/org.gnome.shell.extensions.auto-move-windows.gschema.xml /usr/share/glib-2.0/schemas/
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 # Configure Tactile
@@ -59,3 +62,7 @@ gsettings set org.gnome.shell.extensions.space-bar.behavior scroll-wheel "disabl
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-activate-workspace-shortcuts false
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-move-to-workspace-shortcuts true
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
+
+# Configure Auto Move Windows
+# List of applications and their assigned workspace
+gsettings set org.gnome.shell.extensions.auto-move-windows application-list "['Alacritty.desktop:1', 'firefox.desktop:2', 'spotify.desktop:5']"
