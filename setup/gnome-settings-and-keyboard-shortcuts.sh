@@ -49,3 +49,8 @@ gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
 for i in {1..5}; do
     gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-$i" "['<Super><Shift>$i']"
 done
+
+# Lock screen and start screensaver with Super + Shift + C
+gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Super><Shift>c']"
+# Launch a terminal instance with Super + Enter
+gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>Return']"
