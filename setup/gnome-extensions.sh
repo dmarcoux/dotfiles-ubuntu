@@ -50,6 +50,8 @@ gsettings set org.gnome.shell.extensions.just-perfection workspace-popup false
 # Display the date and time on the right
 gsettings set org.gnome.shell.extensions.just-perfection clock-menu true
 gsettings set org.gnome.shell.extensions.just-perfection clock-menu-position 1
+# Do not display pinned and opened applications in the activities overview (accessible via Super)
+gsettings set org.gnome.shell.extensions.just-perfection dash false
 
 # Configure Space Bar
 gsettings set org.gnome.shell.extensions.space-bar.behavior smart-workspace-names false
