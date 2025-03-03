@@ -16,6 +16,7 @@ brew "fzf" # Fuzzy finder | https://github.com/junegunn/fzf
 brew "gh" # GitHub CLI | https://cli.github.com/
 brew "git-delta" # Syntax-highlighting pager for git | https://github.com/dandavison/delta
 brew "git-lfs" # Git extension for large file storage | https://git-lfs.com/
+brew "gum" # Tool for glamorous shell scripts | https://github.com/charmbracelet/gum
 brew "hashicorp/tap/nomad" # Scheduler and orchestrator to deploy and manage containers | https://www.nomadproject.io/
 brew "hashicorp/tap/terraform" # Infrastructure as Code tool | https://www.terraform.io/
 brew "jq" # CLI JSON processor | https://jqlang.org/
