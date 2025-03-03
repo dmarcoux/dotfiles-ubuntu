@@ -65,4 +65,4 @@ gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
 
 # Configure Auto Move Windows
 # List of applications and their assigned workspace
-gsettings set org.gnome.shell.extensions.auto-move-windows application-list "['Alacritty.desktop:1', 'firefox.desktop:2', 'spotify.desktop:5']"
+gsettings set org.gnome.shell.extensions.auto-move-windows application-list "['Alacritty.desktop:1', 'firefox.desktop:2', 'google-chrome.desktop:2', 'spotify.desktop:5']"
