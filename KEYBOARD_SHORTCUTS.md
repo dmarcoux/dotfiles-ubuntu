@@ -6,9 +6,8 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 
 | Function | Keyboard Shortcut |
 |----------|-------------------|
-| Switch to workspace 1/2/... | Super + 1/2/... |
-| Move window to workspace 1/2/... | Super + Shift + 1/2/... |
-| Switch to pinned dock app 1/2/... | Alt + 1/2/... |
+| Switch to workspace 1-5 | Super + 1-5 |
+| Move window to workspace 1-5 | Super + Shift + 1-5 |
 | Switch to another window of the current app | Super + / |
 | Switch to another window across all workspaces | Super + Tab |
 | Switch to another window on the current workspace | Alt + Tab |
