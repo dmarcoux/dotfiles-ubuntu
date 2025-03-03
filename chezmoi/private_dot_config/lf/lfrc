@@ -32,6 +32,13 @@ cmd touch %touch "$@"
 # Create one/multiple directory(ies)
 cmd mkdir $mkdir "$@"
 
+# Change access permissions of the current file(s) selection
+cmd chmod %{{
+    set -f # Disable pathname expansion
+    chmod $@ $fx # $@ should contain +x, g-w, etc... so the access permission changes
+    lf -remote "send reload" # Refresh lf to see the changes
+}}
+
 # Extract archives
 cmd extract ${{
     set -f # Disable pathname expansion
