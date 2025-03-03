@@ -20,6 +20,9 @@ gsettings set org.gnome.desktop.interface clock-show-weekday true
 # Show the battery percentage in the top bar
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 
+# Enable the keyboard layouts: Canadian Multilingual (CSA), English US, and German
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'ca+multix'), ('xkb', 'us'), ('xkb', 'de')]"
+
 # Use 5 workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
