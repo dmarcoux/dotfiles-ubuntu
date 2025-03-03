@@ -19,6 +19,7 @@ brew "git-lfs" # Git extension for large file storage | https://git-lfs.com/
 brew "gum" # Tool for glamorous shell scripts | https://github.com/charmbracelet/gum
 brew "hashicorp/tap/nomad" # Scheduler and orchestrator to deploy and manage containers | https://www.nomadproject.io/
 brew "hashicorp/tap/terraform" # Infrastructure as Code tool | https://www.terraform.io/
+brew "hashicorp/tap/vault" # Manage secrets and protect sensitive data | https://www.vaultproject.io/
 brew "jq" # CLI JSON processor | https://jqlang.org/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
