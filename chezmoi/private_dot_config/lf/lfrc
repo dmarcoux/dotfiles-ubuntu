@@ -46,10 +46,10 @@ cmd extract ${{
 }}
 
 # Yank paths into the clipboard
-cmd yank-dirname $dirname -- "$f" | head -c-1 | xsel --clipboard --input
-cmd yank-basename $basename -a -- $fx | head -c-1 | xsel --clipboard --input
-cmd yank-basename-without-extension &basename -a -- $fx | rev | cut -d. -f2- | rev | head -c-1 | xsel --clipboard --input
-cmd yank-path $printf '%s' "$fx" | xsel --clipboard --input
+cmd yank-dirname $dirname -- "$f" | head -c-1 | wl-copy
+cmd yank-basename $basename -a -- $fx | head -c-1 | wl-copy
+cmd yank-basename-without-extension &basename -a -- $fx | rev | cut -d. -f2- | rev | head -c-1 | wl-copy
+cmd yank-path $printf '%s' "$fx" | wl-copy
 
 ###############
 # Mappings

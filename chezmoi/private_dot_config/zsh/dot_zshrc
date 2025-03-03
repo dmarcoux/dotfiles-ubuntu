@@ -325,9 +325,9 @@ up() {
   fi
 }
 
-alias cbc='xsel --clipboard --input'
+alias cbc='wl-copy'
 alias cbcf='fc -rl 1 | fzf --header='\''Select command to copy to clipboard'\'' --tiebreak=index | sed -E "s/^ *([0-9]**?) *//g" | cbc'
-alias cbp='xsel --clipboard --output'
+alias cbp='wl-paste'
 alias chgrp='chgrp --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chown='chown --preserve-root'
