@@ -1,7 +1,7 @@
 # Boot script, only run this once
 
 # Upgrade packages
-sudo apt-get update > /dev/null
+sudo apt-get update --assume-yes > /dev/null
 # Install git
 sudo apt-get install --assume-yes git > /dev/null
 

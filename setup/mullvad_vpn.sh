@@ -8,4 +8,4 @@ echo "deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=$( dpkg --prin
 sudo apt-get update --assume-yes
 
 # Install Mullvad VPN package
-sudo apt-get install mullvad-vpn
+sudo apt-get install --assume-yes mullvad-vpn
