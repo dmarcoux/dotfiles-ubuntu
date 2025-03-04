@@ -1,9 +1,9 @@
 # Boot script, only run this once
 
 # Upgrade packages
-sudo apt update > /dev/null
+sudo apt-get update > /dev/null
 # Install git
-sudo apt install --assume-yes git > /dev/null
+sudo apt-get install --assume-yes git > /dev/null
 
 echo "Cloning dotfiles..."
 rm -rf ~/.local/share/chezmoi

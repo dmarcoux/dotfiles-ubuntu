@@ -1,7 +1,7 @@
 # Setup JetBrains Toolbox - https://www.jetbrains.com/toolbox-app/
 
 # Install dependencies
-sudo apt install --assume-yes libfuse2 libxi6 libxrender1 libxtst6 mesa-utils libfontconfig libgtk-3-bin tar dbus-user-session
+sudo apt-get install --assume-yes libfuse2 libxi6 libxrender1 libxtst6 mesa-utils libfontconfig libgtk-3-bin tar dbus-user-session
 
 # Download JetBrains Toolbox archive and SHA-256 checksum
 wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.5.4.38621.tar.gz

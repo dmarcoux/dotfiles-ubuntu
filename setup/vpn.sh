@@ -1,10 +1,10 @@
 # Setup OpenConnect VPN in Network Manager
 
 # Refresh repositories
-sudo apt update --assume-yes
+sudo apt-get update --assume-yes
 
 # Install packages for OpenConnect VPN in Network Manager
-sudo apt install --assume-yes network-manager-openconnect network-manager-openconnect-gnome
+sudo apt-get install --assume-yes network-manager-openconnect network-manager-openconnect-gnome
 
 gum confirm "Download your VPN files (certificates, keys, etc...) and put them under ~/downloads. Done, right?" &&
   echo "Moving VPN files to /etc/ssl/{certs,private}..." &&
