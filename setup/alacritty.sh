@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup Alacritty - https://alacritty.org/
 
 # Install Alacritty

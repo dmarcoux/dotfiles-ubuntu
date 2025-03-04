@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Install Chrome - https://www.google.com/chrome/
 
 # Download .deb file, install it, before removing it

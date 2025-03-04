@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Install development tools — anything which is generic, needed by other packages/apps/tools or doesn't need any specific setup
 
 # Add repository for the latest Git stable versions

@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup JetBrains Toolbox - https://www.jetbrains.com/toolbox-app/
 
 # Install dependencies

@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup GNOME settings and keyboard shortcuts
 
 # Enable the night light feature to adjust the color temperature based on the time

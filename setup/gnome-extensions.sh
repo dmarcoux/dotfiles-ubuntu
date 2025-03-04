@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup GNOME Shell extensions - https://extensions.gnome.org/
 
 # Install GNOME Shell extension manager GUI

@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Install Mullvad VPN - https://mullvad.net
 
 # Setup Mullvad repository

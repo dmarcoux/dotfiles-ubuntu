@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Install Neovim - https://neovim.io/
 
 # Install Neovim via Homebrew

@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup homebrew - https://brew.sh/
 
 echo "Installing homebrew"

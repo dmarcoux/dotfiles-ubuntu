@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup 1Password - https://1password.com/
 
 echo "Downloading and installing 1Password GUI/CLI"

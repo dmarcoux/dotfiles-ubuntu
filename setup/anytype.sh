@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Install Anytype - https://anytype.io/
 
 echo "Installing Anytype"

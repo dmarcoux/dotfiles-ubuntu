@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup OpenConnect VPN in Network Manager
 
 # Refresh repositories

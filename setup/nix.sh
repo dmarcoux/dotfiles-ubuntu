@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Install Nix - https://nixos.org/
 
 # Use the Determinate Systems installer for Nix (https://github.com/DeterminateSystems/nix-installer)

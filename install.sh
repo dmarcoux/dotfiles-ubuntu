@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Boot script, only run this once
 
 # Upgrade packages

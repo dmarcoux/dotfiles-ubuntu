@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # Setup Nerd fonts - https://www.nerdfonts.com
 
 # Create fonts directory
