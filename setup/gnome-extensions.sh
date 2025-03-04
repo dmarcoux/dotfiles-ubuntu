@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 # Setup GNOME Shell extensions - https://extensions.gnome.org/
 
+# Install GNOME Shell extension manager GUI
+sudo apt install --assume-yes gnome-shell-extension-manager
+
 # Install GNOME Shell extensions CLI - https://github.com/essembeh/gnome-extensions-cli
 pipx install gnome-extensions-cli --system-site-packages
 
