@@ -25,23 +25,6 @@ My Ubuntu configuration files.
      rm ~/Brewfile
    ```
 
-5. Install, then setup 1Password GUI/CLI and browser extensions.
-
-   1. Download and install 1Password GUI/CLI.
-
-      ```bash
-      curl --output 1password.deb https://downloads.1password.com/linux/debian/amd64/stable/1password-latest.deb &&
-      curl --output 1password-cli.deb https://downloads.1password.com/linux/debian/amd64/stable/1password-cli-amd64-latest.deb &&
-        sudo apt install ./1password.deb ./1password-cli.deb &&
-        rm 1password.deb 1password-cli.deb
-      ```
-
-   2. Enable [1Password SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent).
-
-   3. [Sign Git commits with my SSH key](https://developer.1password.com/docs/ssh/git-commit-signing/).
-
-   4. Configure the 1Password GUI and browser extensions to match the settings stored in my 1Password notes.
-
 6. Setup my dotfiles with [chezmoi](https://www.chezmoi.io/).
 
    _[Brewfile](Brewfile) is symlinked to my home directory in order to be able
