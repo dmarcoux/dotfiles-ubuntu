@@ -1,9 +1,6 @@
 #!/usr/bin/bash
 # Setup GNOME settings and keyboard shortcuts
 
-# Disable startup sound
-gsettings set org.gnome.shell.ubuntu startup-sound ""
-
 # Enable the night light feature to adjust the color temperature based on the time
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-automatic false
