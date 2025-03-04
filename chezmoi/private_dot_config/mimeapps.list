@@ -141,5 +141,9 @@ text/xml=nvim.desktop
 text/xml-external-parsed-entity=nvim.desktop
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
 x-scheme-handler/anytype=anytype.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
 
 [Removed Associations]
