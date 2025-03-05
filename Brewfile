@@ -21,6 +21,7 @@ brew "hashicorp/tap/nomad" # Scheduler and orchestrator to deploy and manage con
 brew "hashicorp/tap/terraform" # Infrastructure as Code tool | https://www.terraform.io/
 brew "hashicorp/tap/vault" # Manage secrets and protect sensitive data | https://www.vaultproject.io/
 brew "jq" # CLI JSON processor | https://jqlang.org/
+brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
 brew "ripgrep" # Search tool | https://github.com/BurntSushi/ripgrep
