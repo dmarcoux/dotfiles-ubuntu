@@ -50,3 +50,6 @@ done
 gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Super><Shift>c']"
 # Launch a terminal instance with Super + Enter
 gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>Return']"
+
+# Fix issue where mouse cursor isn't visible in terminal emulators, except for the built-in GNOME terminal emulators
+cp --recursive /usr/share/icons/Adwaita ~/.local/share/icons/default
