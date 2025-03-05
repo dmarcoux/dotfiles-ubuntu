@@ -8,6 +8,8 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 |----------|-------------------|
 | Switch to workspace 1-5 | Super + 1-5 |
 | Move window to workspace 1-5 | Super + Shift + 1-5 |
+| Move window one monitor to the left/right | Super + Shift + Left/Right arrow |
+| Move window one monitor up/down | Super + Shift + Up/Down arrow |
 | Switch to another window of the current app | Super + / |
 | Switch to another window across all workspaces | Super + Tab |
 | Switch to another window on the current workspace | Alt + Tab |
