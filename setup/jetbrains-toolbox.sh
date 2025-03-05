@@ -18,3 +18,6 @@ if sha256sum --check jetbrains-toolbox-2.5.4.38621.tar.gz.sha256; then
 else
   echo "Checksum verification failed..."
 fi
+
+# After installing JetBrains IDEs, symlink their binary to , which is in $PATH
+# ln --symbolic ~/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/bin/idea ~/.local/bin/
