@@ -19,8 +19,6 @@ gext install tactile@lundal.io
 gext install just-perfection-desktop@just-perfection
 # Replace the top-panel workspace indicator with an i3-like workspaces bar - https://extensions.gnome.org/extension/5090/space-bar/
 gext install space-bar@luchrioh
-# Undecorate windows or in other words, remove title bar of a window. This can be toggled back if needed - https://extensions.gnome.org/extension/1208/undecorate/
-gext install undecorate@sun.wxg@gmail.com
 # Open windows on a specific workspace - https://extensions.gnome.org/extension/16/auto-move-windows/
 gext install auto-move-windows@gnome-shell-extensions.gcampax.github.com
 
