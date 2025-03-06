@@ -23,6 +23,7 @@ brew "hashicorp/tap/vault" # Manage secrets and protect sensitive data | https:/
 brew "jq" # CLI JSON processor | https://jqlang.org/
 brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
+brew "pnpm" # Faster alternative to npm | https://pnpm.io/
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
 brew "ripgrep" # Search tool | https://github.com/BurntSushi/ripgrep
 brew "shellcheck" # Static analysis and linting for shell scripts | https://www.shellcheck.net/
