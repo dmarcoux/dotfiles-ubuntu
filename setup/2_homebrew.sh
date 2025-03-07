@@ -9,3 +9,7 @@ echo "Installing all packages from Brewfile"
 curl --output ~/Brewfile https://raw.githubusercontent.com/dmarcoux/dotfiles-ubuntu/refs/heads/main/Brewfile
 brew bundle
 rm ~/Brewfile
+
+echo "Adding /home/linuxbrew/.linuxbrew/bin/ to secure_path for sudo"
+# Without this, root cannot use the CLIs intalled via homebrew. See https://github.com/orgs/Homebrew/discussions/3575
+sudo visudo
