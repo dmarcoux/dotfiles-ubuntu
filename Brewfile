@@ -21,6 +21,7 @@ brew "gum" # Tool for glamorous shell scripts | https://github.com/charmbracele
 brew "hashicorp/tap/nomad" # Scheduler and orchestrator to deploy and manage containers | https://www.nomadproject.io/
 brew "hashicorp/tap/terraform" # Infrastructure as Code tool | https://www.terraform.io/
 brew "hashicorp/tap/vault" # Manage secrets and protect sensitive data | https://www.vaultproject.io/
+brew "hyperfine" # Command-line benchmarking tool | https://github.com/sharkdp/hyperfine
 brew "jq" # CLI JSON processor | https://jqlang.org/
 brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
