@@ -24,13 +24,21 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 
 ## Tiling
 
+| Function                      | Keyboard Shortcut     |
+|-------------------------------|-----------------------|
+| Toggle maximize window        | Super _+_ Up arrow    |
+| Tile window to the left half  | Super _+_ Left arrow  |
+| Tile window to the right half | Super _+_ Right arrow |
+| Tiling overlay                | Super _+_ T           |
+| Tiling settings               | Super _+_ Shift _+_ T |
+
+### Within the Tiling Overlay
+
+_All **Tile window to (...)** keyboard shortcuts below are for the tiling layout 1._
+
 | Function                            | Keyboard Shortcut   |
 |-------------------------------------|---------------------|
-| Toggle maximize window              | Super _+_ Up arrow    |
-| Tile window to the left half        | Super _+_ Left arrow  |
-| Tile window to the right half       | Super _+_ Right arrow |
-| Tiling overlay                      | Super _+_ T           |
-| Tiling settings | Super _+_ Shift _+_ T |
+| Switch to tiling layout 1-2 | Super _+_ 1-2 |
 | Tile window to the vertical center | Super _+_ T W S |
 | Tile window to the vertical left | Super _+_ T Q A |
 | Tile window to the vertical right | Super _+_ T E D |
@@ -43,7 +51,7 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 
 | Function   | Keyboard Shortcut |
 |------------|-------------------|
-| Go to path | Ctrl _+_ L          |
+| Go to path | Ctrl _+_ L        |
 
 ## Terminal Emulator (Foot)
 
@@ -51,7 +59,7 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 |------------|-------------------|
 | Enter [URL mode](https://codeberg.org/dnkl/foot#urls) | Ctrl _+_ Shift _+_ O  |
 | Exit URL mode | Escape, Ctrl _+_ C, Ctrl _+_ G, Ctrl _+_ D |
-| Spawn a new terminal | Ctrl + Shift + N |
+| Spawn a new terminal | Ctrl _+_ Shift _+_ N |
 | Increase font size | Ctrl _+_ =/+ |
 | Decrease font size | Ctrl _+_ - |
 | Reset font size | Ctrl _+_ 0 |
