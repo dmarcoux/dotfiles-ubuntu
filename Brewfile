@@ -10,7 +10,8 @@ brew "bat" # Modern alternative to `cat` | https://github.com/sharkdp/bat
 brew "chezmoi" # Manage dotfiles/configurations across multiple systems | https://www.chezmoi.io/
 brew "devcontainer" # Development containers | https://containers.dev/
 brew "direnv" # Automatically load ENV variables when you `cd` into a directory | https://direnv.net/
-brew "docker-credential-helper" # Keep Docker login credentials safe by storing in platform keystores | https://github.com/docker/docker-credential-helpers
+# TODO: Somehow, the binaries from this package cannot be found in $PATH when using devcontainers...
+# brew "docker-credential-helper" # Keep Docker login credentials safe by storing in platform keystores | https://github.com/docker/docker-credential-helpers
 brew "eza" # Modern alternative to `ls` | https://eza.rocks/
 brew "fd" # Modern alternative to `fd` | https://github.com/sharkdp/fd
 brew "fzf" # Fuzzy finder | https://github.com/junegunn/fzf
