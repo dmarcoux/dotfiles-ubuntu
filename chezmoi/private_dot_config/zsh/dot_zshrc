@@ -481,6 +481,12 @@ export SSH_AUTH_SOCK=~/.1password/agent.sock
 #   eval "$(mise activate zsh)"
 # fi
 
+##### direnv #####
+
+if [[ $TERM != "dumb" ]]; then
+  eval "$(direnv hook zsh)"
+fi
+
 ##### jq #####
 
 # Use a here string to pass some input directly to jq without having to work with a file
