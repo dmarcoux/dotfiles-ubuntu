@@ -50,8 +50,9 @@ bindkey -M isearch " " magic-space
 # This is done as one of the first steps in zsh's config to ensure CLIs installed via homebrew are available later when needed.
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# Run `brew bundle`. By default, ~/Brewfile is used (it's a symlink to the Brewfile from my dotfiles)
-ealias bb='brew bundle'
+# Run `brew bundle`, but remove all formulaes which haven't been installed with Brewfile.
+# By default, ~/Brewfile is used (it's a symlink to the Brewfile from my dotfiles)
+ealias bb='brew bundle --cleanup'
 
 ##### Completion #####
 
