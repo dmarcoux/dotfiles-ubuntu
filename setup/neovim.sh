@@ -1,7 +1,5 @@
-# Install Neovim - https://neovim.io/
-
-# Install Neovim via Homebrew
-brew install neovim
+# Setup Neovim - https://neovim.io/
+# We install Neovim via Homebrew, it's already in Brewfile.
 
 # Symlink Neovim desktop file to /usr/share/applications to use Neovim as a default application when opening files
 sudo ln --symbolic \
