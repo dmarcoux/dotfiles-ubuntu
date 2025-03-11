@@ -26,6 +26,7 @@ brew "hyperfine" # Command-line benchmarking tool | https://github.com/sharkdp/h
 brew "jq" # CLI JSON processor | https://jqlang.org/
 brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
+brew "mise" # Polyglot tool version manager | https://mise.jdx.dev/
 brew "pnpm" # Faster alternative to npm | https://pnpm.io/
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
 brew "ripgrep" # Search tool | https://github.com/BurntSushi/ripgrep
