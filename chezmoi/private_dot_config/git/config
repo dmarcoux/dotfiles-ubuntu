@@ -39,7 +39,7 @@
 
 [gpg "ssh"]
 	allowedSignersFile = "/home/dany/.ssh/allowed_signers"
-	program = "op-ssh-sign"
+	program = "/opt/1Password/op-ssh-sign"
 
 [init]
 	defaultBranch = "main"
