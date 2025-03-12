@@ -26,14 +26,22 @@ gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
 gsettings set org.gnome.mutter workspaces-only-on-primary false
 
 # Remove keyboard shortcuts to switch to pinned dock applications
-for i in {1..9}; do
-    gsettings set org.gnome.shell.keybindings "switch-to-application-$i" "[]"
-done
+gsettings set org.gnome.shell.keybindings "switch-to-application-1" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-2" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-3" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-4" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-5" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-6" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-7" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-8" "[]"
+gsettings set org.gnome.shell.keybindings "switch-to-application-9" "[]"
 
 # Switch to workspace 1-5 with Super + 1-5
-for i in {1..5}; do
-    gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-$i" "['<Super>$i']"
-done
+gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-1" "['<Super>1']"
+gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-2" "['<Super>2']"
+gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-3" "['<Super>3']"
+gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-4" "['<Super>4']"
+gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-5" "['<Super>5']"
 
 # Close window with Super + W
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>w']"
@@ -42,9 +50,11 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>w']"
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
 
 # Move window to workspace 1-5 with Super + Shift + 1-5
-for i in {1..5}; do
-    gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-$i" "['<Super><Shift>$i']"
-done
+gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-1" "['<Super><Shift>1']"
+gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-2" "['<Super><Shift>2']"
+gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-3" "['<Super><Shift>3']"
+gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-4" "['<Super><Shift>4']"
+gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-5" "['<Super><Shift>5']"
 
 # Lock screen and start screensaver with Super + Shift + C
 gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Super><Shift>c']"
@@ -52,4 +62,5 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Super
 gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>Return']"
 
 # Fix issue where mouse cursor isn't visible in terminal emulators, except for the built-in GNOME terminal emulators
+mkdir --parents ~/.local/share/icons
 cp --recursive /usr/share/icons/Adwaita ~/.local/share/icons/default
