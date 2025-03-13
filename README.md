@@ -1,6 +1,6 @@
 # <a href="https://github.com/dmarcoux/dotfiles-ubuntu">dmarcoux/dotfiles-ubuntu</a>
 
-My Ubuntu 24.04 LTS configuration files.
+My Ubuntu 24.10 configuration files.
 
 ## Setup
 

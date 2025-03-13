@@ -1,5 +1,8 @@
 # Setup GNOME settings and keyboard shortcuts
 
+# Disable startup sound
+gsettings set org.gnome.shell.ubuntu startup-sound ""
+
 # Enable the night light feature to adjust the color temperature based on the time
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-automatic false
@@ -63,4 +66,4 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>Re
 
 # Fix issue where mouse cursor isn't visible in terminal emulators, except for the built-in GNOME terminal emulators
 mkdir --parents ~/.local/share/icons
-cp --recursive /usr/share/icons/Adwaita ~/.local/share/icons/default
+cp --force --recursive /usr/share/icons/Adwaita ~/.local/share/icons/default

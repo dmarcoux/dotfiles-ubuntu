@@ -7,7 +7,7 @@ mkdir --parents ~/.local/share/fonts
 # DejaVuSansM Nerd Font, based on DejaVu Sans Mono
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/DejaVuSansMono.zip
 unzip DejaVuSansMono.zip -d DejaVuSansMono
-cp DejaVuSansMono/*.ttf ~/.local/share/fonts
+cp --force DejaVuSansMono/*.ttf ~/.local/share/fonts
 rm -rf DejaVuSansMono.zip DejaVuSansMono
 
 # Rebuild fonts cache

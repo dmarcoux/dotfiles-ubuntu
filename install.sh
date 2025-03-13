@@ -16,7 +16,7 @@ for setup_script in ~/.local/share/chezmoi/setup/*.sh; do source $setup_script; 
 echo "Setting up dotfiles with chezmoi"
 rm -rf ~/.local/share/chezmoi
 chezmoi init git@github.com:dmarcoux/dotfiles-ubuntu.git
-ln --symbolic "$(dirname "$(chezmoi source-path)")/Brewfile" ~/Brewfile
+ln --force --symbolic "$(dirname "$(chezmoi source-path)")/Brewfile" ~/Brewfile
 brew bundle
 chezmoi apply
 

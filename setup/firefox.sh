@@ -23,5 +23,5 @@ Pin-Priority: 1000
 # Refresh repositories
 sudo apt-get update --assume-yes
 
-# Install Firefox
-sudo apt-get install --assume-yes firefox
+# Install Firefox (--allow-downgrades is needed due to the version number being smaller than the Snap package version)
+sudo apt-get install --assume-yes --allow-downgrades firefox
