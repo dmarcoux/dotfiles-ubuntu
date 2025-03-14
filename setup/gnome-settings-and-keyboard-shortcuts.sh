@@ -49,8 +49,20 @@ gsettings set org.gnome.desktop.wm.keybindings "switch-to-workspace-5" "['<Super
 # Close window with Super + W
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>w']"
 
-# Maximize window with Super + Up arrow
-gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
+# Toggle maximize window with Super + K
+gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "['<Super>k']"
+
+# Tile window to the left/right half with Super + H/L
+gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>h']"
+gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>l']"
+# Disable this keybinding as it would otherwise clash with Super + H (toggle-tiled-left)
+gsettings set org.gnome.desktop.wm.keybindings minimize "@as []"
+
+# Move window to one monitor down/up, to the left/right with Super + Shift + H/J/K/L
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-down "['<Super><Shift>j']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-up "['<Super><Shift>k']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-left "['<Super><Shift>h']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-right "['<Super><Shift>l']"
 
 # Move window to workspace 1-5 with Super + Shift + 1-5
 gsettings set org.gnome.desktop.wm.keybindings "move-to-workspace-1" "['<Super><Shift>1']"

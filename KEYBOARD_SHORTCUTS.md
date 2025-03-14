@@ -8,13 +8,13 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 |----------|-------------------|
 | Switch to workspace 1-5 | Super _+_ 1-5 |
 | Move window to workspace 1-5 | Super _+_ Shift _+_ 1-5 |
-| Move window one monitor to the left/right | Super _+_ Shift _+_ Left/Right arrow |
-| Move window one monitor up/down | Super _+_ Shift _+_ Up/Down arrow |
+| Move window one monitor to the left/right | Super _+_ Shift _+_ H/L |
+| Move window one monitor up/down | Super _+_ Shift _+_ K/J |
 | Switch to another window of the current app | Super _+_ / |
 | Switch to another window across all workspaces | Super _+_ Tab |
 | Switch to another window on the current workspace | Alt _+_ Tab |
 | Close app | Super _+_ W |
-| Lock screen | Super _+_ L |
+| Lock screen | Super _+_ Shift _+_ C |
 | Show the notification list | Super _+_ V |
 | Open the quick settings menu | Super _+_ S |
 | Launch terminal | Super _+_ Enter |
@@ -26,9 +26,9 @@ _TODO: Format the Markdown tables below automatically, so they are easier to rea
 
 | Function                      | Keyboard Shortcut     |
 |-------------------------------|-----------------------|
-| Toggle maximize window        | Super _+_ Up arrow    |
-| Tile window to the left half  | Super _+_ Left arrow  |
-| Tile window to the right half | Super _+_ Right arrow |
+| Toggle maximize window        | Super _+_ K           |
+| Tile window to the left half  | Super _+_ H           |
+| Tile window to the right half | Super _+_ L           |
 | Tiling overlay                | Super _+_ T           |
 | Tiling settings               | Super _+_ Shift _+_ T |
 
