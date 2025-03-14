@@ -26,6 +26,7 @@ brew "hyperfine" # Command-line benchmarking tool | https://github.com/sharkdp/h
 brew "jq" # CLI JSON processor | https://jqlang.org/
 brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
+brew "luarocks" # Package manager for the Lua programming language. I use it within Neovim | https://luarocks.org/
 brew "mise" # Polyglot tool version manager | https://mise.jdx.dev/
 brew "neovim" # Text editor | https://neovim.io/
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
