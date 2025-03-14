@@ -1,4 +1,4 @@
-# Setup homebrew - https://brew.sh/
+# Setup Homebrew - https://brew.sh/
 
 # Check if Homebrew is already set up. In this case, nothing needs to be done.
 if ! command -v brew 2>&1 >/dev/null
