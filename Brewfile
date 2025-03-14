@@ -8,6 +8,7 @@ tap "hashicorp/tap" # To install Terraform's latest version | https://developer.
 brew "awscli" # CLI to manage AWS services | https://aws.amazon.com/cli/
 brew "bat" # Modern alternative to `cat` | https://github.com/sharkdp/bat
 brew "chezmoi" # Manage dotfiles/configurations across multiple systems | https://www.chezmoi.io/
+brew "universal-ctags" # Generate an index/tag file of language objects in source files. I use it within Neovim | https://ctags.io/
 brew "devcontainer" # Development containers | https://containers.dev/
 brew "direnv" # Automatically load ENV variables when you `cd` into a directory | https://direnv.net/
 # TODO: Somehow, the binaries from this package cannot be found in $PATH when using devcontainers...
@@ -26,6 +27,7 @@ brew "hyperfine" # Command-line benchmarking tool | https://github.com/sharkdp/h
 brew "jq" # CLI JSON processor | https://jqlang.org/
 brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
+brew "luarocks" # Package manager for the Lua programming language. I use it within Neovim | https://luarocks.org/
 brew "mise" # Polyglot tool version manager | https://mise.jdx.dev/
 brew "neovim" # Text editor | https://neovim.io/
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
