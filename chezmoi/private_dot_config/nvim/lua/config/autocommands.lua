@@ -9,7 +9,20 @@ do
       end,
       desc = "Set options in Markdown files",
       event = { "BufNewFile", "BufReadPost" },
-      pattern = { "*.md", "gitcommit" },
+      pattern = "*.md",
+    },
+    {
+      callback = function()
+        -- Disable .editorconfig for the current buffer when editing a git commit.
+        -- Sometimes a poorly-configured .editorconfig would overwrite line length.
+        vim.b.editorconfig = false
+
+        -- Wrap lines at 72 characters
+        vim.opt_local.textwidth = 72
+      end,
+      desc = "Set options in gitcommit files",
+      event = "FileType",
+      pattern = "gitcommit",
     },
     {
       callback = function()
