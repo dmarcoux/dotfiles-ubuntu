@@ -35,3 +35,4 @@ brew "ripgrep" # Search tool | https://github.com/BurntSushi/ripgrep
 brew "shellcheck" # Static analysis and linting for shell scripts | https://www.shellcheck.net/
 brew "starship" # Customizable prompt for any shell | https://starship.rs/
 brew "tlrc" # Collaborative cheatsheets for CLI tools | https://github.com/tldr-pages/tlrc
+brew "tree" # Display directories as trees | https://oldmanprogrammer.net/source.php?dir=projects/tree
