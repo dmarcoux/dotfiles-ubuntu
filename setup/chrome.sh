@@ -7,3 +7,7 @@ rm google-chrome-stable_current_amd64.deb
 
 # Set Chrome as the default browser
 xdg-settings set default-web-browser google-chrome.desktop
+
+# TODO: In the settings, under `Languages`:
+#         Enable spellcheck for all languages I use (French, English and German)
+#         Disable Google Translate
