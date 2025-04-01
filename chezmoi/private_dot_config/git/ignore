@@ -14,6 +14,9 @@ shell.local.nix
 .nix-mix.local
 .nix-hex.local
 
+# Mise configuration file for local configuration, whenever a project doesn't use Mise and upstreaming this configuration isn't an option
+mise.local.toml
+
 # Ruby, this is almost always included in .gitignore, but just in case I ignored it too...
 .bundle
 
