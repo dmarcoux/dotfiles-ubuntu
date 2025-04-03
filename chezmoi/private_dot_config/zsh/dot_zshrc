@@ -457,9 +457,6 @@ lf() {
     fi
 }
 
-# TODO: Why? Does it change something with the lf() function defined above?
-ealias lf="lf"
-
 ##### Starship #####
 
 if [[ $TERM != "dumb" ]]; then
