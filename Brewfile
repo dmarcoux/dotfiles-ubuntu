@@ -25,7 +25,6 @@ brew "hashicorp/tap/terraform" # Infrastructure as Code tool | https://www.terra
 brew "hashicorp/tap/vault" # Manage secrets and protect sensitive data | https://www.vaultproject.io/
 brew "hyperfine" # Command-line benchmarking tool | https://github.com/sharkdp/hyperfine
 brew "jq" # CLI JSON processor | https://jqlang.org/
-brew "just" # Command runner | https://just.systems/man/en/
 brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
 brew "luarocks" # Package manager for the Lua programming language. I use it within Neovim | https://luarocks.org/
 brew "mise" # Polyglot tool version manager | https://mise.jdx.dev/
