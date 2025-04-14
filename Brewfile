@@ -8,6 +8,7 @@ tap "hashicorp/tap" # To install Terraform's latest version | https://developer.
 brew "awscli" # CLI to manage AWS services | https://aws.amazon.com/cli/
 brew "bat" # Modern alternative to `cat` | https://github.com/sharkdp/bat
 brew "chezmoi" # Manage dotfiles/configurations across multiple systems | https://www.chezmoi.io/
+brew "cosign" # Increase supply chain security via code signing and transparency for containers and binaries | https://github.com/sigstore/cosign
 brew "universal-ctags" # Generate an index/tag file of language objects in source files. I use it within Neovim | https://ctags.io/
 brew "devcontainer" # Development containers | https://containers.dev/
 brew "direnv" # Automatically load ENV variables when you `cd` into a directory | https://direnv.net/
@@ -32,6 +33,7 @@ brew "neovim" # Text editor | https://neovim.io/
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
 brew "ripgrep" # Search tool | https://github.com/BurntSushi/ripgrep
 brew "shellcheck" # Static analysis and linting for shell scripts | https://www.shellcheck.net/
+brew "slsa-verifier" # Increase supply chain security by verifying provenance from SLSA compliant builders | https://github.com/slsa-framework/slsa-verifier
 brew "starship" # Customizable prompt for any shell | https://starship.rs/
 brew "tlrc" # Collaborative cheatsheets for CLI tools | https://github.com/tldr-pages/tlrc
 brew "tree" # Display directories as trees | https://oldmanprogrammer.net/source.php?dir=projects/tree
