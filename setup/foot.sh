@@ -9,6 +9,9 @@ sudo update-alternatives --set x-terminal-emulator /home/dany/.nix-profile/bin/f
 gsettings set org.gnome.desktop.default-applications.terminal exec '/home/dany/.nix-profile/bin/foot'
 dconf write /org/gnome/desktop/applications/terminal/exec "'/home/dany/.nix-profile/bin/foot'"
 
+# TODO: Ubuntu 25.04
+# Use `xdg-terminal-exec` to make changing default terminal easier. This would replace the line below, right?
+#
 # Fix issue where `xdg-open` and `gio open` fail with "Unable to find terminal required for application"
 sudo ln --force --symbolic /home/dany/.nix-profile/bin/foot /usr/bin/xdg-terminal-exec
 
