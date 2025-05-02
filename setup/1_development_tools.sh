@@ -11,3 +11,8 @@ sudo apt-get upgrade --assume-yes
 
 # Install development tools
 sudo apt-get install --assume-yes build-essential curl zsh git wl-clipboard pipx atool
+
+# Install apt-file. With this, search for the package containing the files I am missing.
+# This is often useful for software packages which are missing header files. Find their package with `apt-file search the/header/file.h`.
+sudo apt-get install --assume-yes apt-file
+sudo apt-file update
