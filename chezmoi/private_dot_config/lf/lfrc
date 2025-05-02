@@ -17,9 +17,6 @@
 # $fs -> Selected file(s) separated with the value of `filesep` option as full path(s)
 # $fx -> `$fs` if multiple files selected, otherwise `$f`
 
-# Open file with xdg-open
-cmd open $xdg-open "$f"
-
 # Open file with a given command (use `$*` to pass all command arguments)
 cmd open_with $$* "$f"
 
