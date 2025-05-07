@@ -55,10 +55,12 @@ _All **Tile window to (...)** keyboard shortcuts below are for the tiling layout
 
 ## Terminal Emulator (Foot)
 
+### Normal Mode
+
 | Function   | Keyboard Shortcut |
 |------------|-------------------|
-| Enter [URL mode](https://codeberg.org/dnkl/foot#urls) | Ctrl _+_ Shift _+_ O  |
-| Exit URL mode | Escape, Ctrl _+_ C, Ctrl _+_ G, Ctrl _+_ D |
+| Enter [URL mode](#URL-Mode) | Ctrl _+_ Shift _+_ O  |
+| Start a [scrollback search](#Scrollback-Search) | Ctrl _+_ Shift _+_ R |
 | Spawn a new terminal | Ctrl _+_ Shift _+_ N |
 | Increase font size | Ctrl _+_ =/+ |
 | Decrease font size | Ctrl _+_ - |
@@ -66,3 +68,32 @@ _All **Tile window to (...)** keyboard shortcuts below are for the tiling layout
 | Copy selected text | Ctrl _+_ Shift _+_ C |
 | Paste from clipboad | Ctrl _+_ Shift _+_ V |
 
+### URL Mode
+
+Foot supports URL detection. But, unlike many other terminal emulators, where
+URLs are highlighted when they are hovered and opened by clicking on them, foot
+uses a keyboard driven approach.
+
+In the URL mode, all currently visible URLs are underlined, and each is
+associated with a jump-label. The jump-label indicates the key sequence (e.g.
+"AF") to use to activate the URL.
+
+More details in [Foot's documentation](https://codeberg.org/dnkl/foot#urls).
+
+| Function   | Keyboard Shortcut |
+|------------|-------------------|
+| Exit URL mode | Escape, Ctrl _+_ C, Ctrl _+_ G, Ctrl _+_ D |
+| Toggle whether the URL is displayed in the jump label or not | T |
+
+### Scrollback Search
+
+| Function   | Keyboard Shortcut |
+|------------|-------------------|
+| Search backward for next match | Ctrl _+_ R |
+| Search forward for next match | Ctrl _+_ S |
+| Extend current selection (and thus the search criteria) to the end of the word, or the next word if currently at a word separating character | Ctrl _+_ W |
+| Same as Ctrl _+_ W, except that the only word separating characters are whitespace characters | Ctrl _+_ Shift _+_ W |
+| Past from clipboard into the search buffer | Ctrl _+_ V, Ctrl _+_ Shift _+_ V, Ctrl _+_ Y, XF86Paste |
+| Paste from primary selection into the search buffer | Shift _+_ Insert |
+| Cancel the search | Escape, Ctrl _+_ G |
+| Finish the search and copy the current match to the primary selection | Enter |
