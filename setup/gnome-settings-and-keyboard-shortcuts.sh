@@ -25,8 +25,8 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'ca+multix'), ('
 # Use 5 workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
-# Workspaces are on all monitors, not only on the primary
-gsettings set org.gnome.mutter workspaces-only-on-primary false
+# Use workspaces only on the primary display. Other displays are static even if the active workspace changes on the primary display.
+gsettings set org.gnome.mutter workspaces-only-on-primary true
 
 # Remove keyboard shortcuts to switch to pinned dock applications
 gsettings set org.gnome.shell.keybindings "switch-to-application-1" "[]"
