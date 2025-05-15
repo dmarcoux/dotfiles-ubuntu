@@ -10,11 +10,12 @@
 	fileMode = true
 	pager = "delta"
 
-[credential "https://gist.github.com"]
-	helper = "gh auth git-credential"
-
-[credential "https://github.com"]
-	helper = "gh auth git-credential"
+# TODO: Either understand why this breaks authentification or remove the commented lines
+#[credential "https://gist.github.com"]
+#	helper = "gh auth git-credential"
+#
+#[credential "https://github.com"]
+#	helper = "gh auth git-credential"
 
 # TODO: Enable this once I replaced stylix
 #[delta]
