@@ -471,7 +471,7 @@ export SSH_AUTH_SOCK=~/.1password/agent.sock
 ##### mise #####
 
 if [[ $TERM != "dumb" ]]; then
-  eval "$(mise activate zsh)"
+  eval "$(mise activate --shims zsh)"
 fi
 
 ##### direnv #####
