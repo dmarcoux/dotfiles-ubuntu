@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/dany/.nix-profile/bin/foot
+Exec=/usr/bin/foot
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
