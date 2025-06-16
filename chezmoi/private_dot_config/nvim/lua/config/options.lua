@@ -86,9 +86,9 @@ vim.opt.matchtime = 2
 -- Minimal number of screen lines to keep above and below the cursor when moving vertically (if possible...)
 vim.opt.scrolloff = 10
 
--- Display tabs as │· (longer pipe) and trailing spaces as ·
+-- Display tabs as │· (longer pipe), trailing spaces as ·, and non-breaking spaces as ␣
 vim.opt.list = true
-vim.opt.listchars = "tab:│·,trail:·"
+vim.opt.listchars = "tab:│·,trail:·,nbsp:␣"
 
 -- Disable word wrapping
 vim.opt.wrap = false
