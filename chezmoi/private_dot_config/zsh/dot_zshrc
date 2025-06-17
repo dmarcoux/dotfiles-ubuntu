@@ -476,6 +476,8 @@ if [[ $TERM != "dumb" ]]; then
   eval "$(mise activate --shims zsh)"
 fi
 
+ealias mr="mise run"
+
 ##### direnv #####
 
 if [[ $TERM != "dumb" ]]; then
