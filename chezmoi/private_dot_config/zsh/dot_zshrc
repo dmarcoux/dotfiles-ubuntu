@@ -140,6 +140,8 @@ ealias gaia='git add --intent-to-add'
 ealias gbra='git branch'
 # Delete a branch
 ealias gbrad='git branch -D'
+# Delete all branches already merged in the default branch
+ealias gbramd='DEFAULT_BRANCH=$(git remote show origin | sed -n "s| *HEAD branch: ||p") && git branch --merged "$DEFAULT_BRANCH" | grep -vE "^\*|main|master" | xargs --max-args=1 --no-run-if-empty git branch --delete'
 ealias gchp='git cherry-pick'
 ealias gcko='git checkout'
 # Create a new branch from current branch
