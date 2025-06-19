@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "telemetry": {
+    "metrics": false
+  },
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always"
+  },
+  // The default font size for text in the UI
+  "ui_font_size": 16,
+  // The name of a font to use for rendering text in the UI
+  // You can set this to ".SystemUIFont" to use the system font
+  "ui_font_family": "Zed Plex Sans",
+  // The default font size for text in the editor
+  "buffer_font_size": 16,
+  // The name of a font to use for rendering text in the editor
+  "buffer_font_family": "DejaVuSansM Nerd Font",
+  // `mode` is one of:
+  // - "system": Use the theme that corresponds to the system's appearance
+  // - "light": Use the theme indicated by the "light" field
+  // - "dark": Use the theme indicated by the "dark" field
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  // Do not show tabs / opened files
+  "tab_bar": {
+    "show": false
+  },
+  // Minimal number of screen lines to keep above and below the cursor when moving vertically (if possible...)
+  "vertical_scroll_margin": 10,
+  // Use case-sensitive search if any of the search characters are uppercase
+  "use_smartcase_search": true,
+  // Show all whitespaces
+  "show_whitespaces": "all"
+}
