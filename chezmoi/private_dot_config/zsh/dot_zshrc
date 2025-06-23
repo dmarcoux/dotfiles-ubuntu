@@ -490,6 +490,10 @@ fi
 # https://stackoverflow.com/questions/47105490/can-i-pass-a-string-variable-to-jq-not-the-file
 ealias jqs='jq <<<'
 
+##### Ruby / Rails #####
+
+ealias bex='bundle exec'
+
 ##### fzf #####
 
 # Set up fzf keybindings and fuzzy completion
