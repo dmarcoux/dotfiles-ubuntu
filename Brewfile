@@ -8,6 +8,7 @@ tap "hashicorp/tap" # To install Terraform's latest version | https://developer.
 brew "awscli" # CLI to manage AWS services | https://aws.amazon.com/cli/
 brew "bat" # Modern alternative to `cat` | https://github.com/sharkdp/bat
 brew "chezmoi" # Manage dotfiles/configurations across multiple systems | https://www.chezmoi.io/
+brew "composer" # Dependency Manager for PHP | https://getcomposer.org/
 brew "cosign" # Increase supply chain security via code signing and transparency for containers and binaries | https://github.com/sigstore/cosign
 brew "universal-ctags" # Generate an index/tag file of language objects in source files. I use it within Neovim | https://ctags.io/
 brew "devcontainer" # Development containers | https://containers.dev/
@@ -31,6 +32,7 @@ brew "lf" # Terminal file manager | https://github.com/gokcehan/lf
 brew "luarocks" # Package manager for the Lua programming language. I use it within Neovim | https://luarocks.org/
 brew "mise" # Polyglot tool version manager | https://mise.jdx.dev/
 brew "neovim" # Text editor | https://neovim.io/
+brew "php" # General-purpose scripting language that is especially suited to web development | https://www.php.net/
 brew "rclone" # CLI to manage files on cloud storage | https://rclone.org/
 brew "ripgrep" # Search tool | https://github.com/BurntSushi/ripgrep
 brew "shellcheck" # Static analysis and linting for shell scripts | https://www.shellcheck.net/
