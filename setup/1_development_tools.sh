@@ -10,7 +10,7 @@ sudo apt-get update --assume-yes
 sudo apt-get upgrade --assume-yes
 
 # Install development dependencies
-sudo apt-get install --assume-yes build-essential autoconf m4 libwxgtk3.2-dev libwxgtk-webview3.2-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk
+sudo apt-get install --assume-yes build-essential autoconf m4 libwxgtk3.2-dev libwxgtk-webview3.2-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk libpq-dev
 
 # Install development tools
 sudo apt-get install --assume-yes curl zsh git wl-clipboard pipx atool screen
