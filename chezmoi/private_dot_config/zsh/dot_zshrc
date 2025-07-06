@@ -470,12 +470,6 @@ fi
 # Use the 1Password SSH agent for all hosts
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 
-##### PHP / Composer #####
-
-# Add $HOME/.config/composer/vendor/bin to $PATH to install Composer packages globally with:
-# composer global require something123
-export PATH="/home/dany/.config/composer/vendor/bin:$PATH"
-
 ##### mise #####
 
 if [[ $TERM != "dumb" ]]; then
