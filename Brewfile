@@ -38,3 +38,4 @@ brew "slsa-verifier" # Increase supply chain security by verifying provenance fr
 brew "starship" # Customizable prompt for any shell | https://starship.rs/
 brew "tlrc" # Collaborative cheatsheets for CLI tools | https://github.com/tldr-pages/tlrc
 brew "tree" # Display directories as trees | https://oldmanprogrammer.net/source.php?dir=projects/tree
+brew "watchman" # Watch files and take action when they change | https://github.com/facebook/watchman
