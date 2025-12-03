@@ -1,6 +1,7 @@
 // Zed keymap - https://zed.dev/docs/key-bindings
 //
 // To see the default key bindings run `zed: open default keymap` from the command palette (Ctrl + Shift + p).
+// Key bindings with `null` are disabled
 [
   {
     // Global key bindings
@@ -13,7 +14,42 @@
     "context": "Workspace",
     "bindings": {
       // Switch between one of the opened files, and pre-select the one which was previously opened
-      "ctrl-n": ["tab_switcher::Toggle", { "select_last": true }]
+      "ctrl-n": ["tab_switcher::Toggle", { "select_last": true }],
+      "ctrl-j": null
+    }
+  },
+  {
+    // Key bindings here work in normal & visual mode
+    // See https://zed.dev/docs/vim
+    "context": "VimControl && !menu",
+    "bindings": {
+      // Shift+k shows hover information for the symbol under the cursor (ex.: Display the documentation for a function)
+      "shift-k": "editor::Hover",
+      "g d": "editor::GoToDefinition",
+      "g shift-d": "editor::GoToDeclaration",
+      "g y": "editor::GoToTypeDefinition",
+      "g shift-i": "editor::GoToImplementation",
+      // Toggle terminal
+      "ctrl-/": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      // Toggle terminal
+      "ctrl-/": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "bindings": {
+      "ctrl-p": null,
+      "ctrl-n": null,
+      "ctrl-k": "editor::ContextMenuPrevious",
+      "ctrl-j": "editor::ContextMenuNext",
+      "ctrl-l": "editor::ConfirmCompletion",
+      "pageup": "editor::ContextMenuFirst",
+      "pagedown": "editor::ContextMenuLast"
     }
   }
 ]
