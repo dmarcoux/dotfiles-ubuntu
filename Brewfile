@@ -3,8 +3,10 @@
 
 # Same as running `brew tap (...)`
 tap "hashicorp/tap" # To install Terraform's latest version | https://developer.hashicorp.com/terraform/install
+tap "anomalyco/tap" # To install OpenCode | https://opencode.ai/
 
 # Same as running `brew install (...)`
+brew "anomalyco/tap/opencode" # Open source AI coding agent | https://opencode.ai/
 brew "awscli" # CLI to manage AWS services | https://aws.amazon.com/cli/
 brew "bat" # Modern alternative to `cat` | https://github.com/sharkdp/bat
 brew "chezmoi" # Manage dotfiles/configurations across multiple systems | https://www.chezmoi.io/
